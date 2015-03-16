@@ -12,6 +12,8 @@
 	<dict>
 		<key>5450119CCA2DD394E9078F73A3071326A1F877FC</key>
 		<string>https://github.com/Bloc/ios-exercises.git</string>
+		<key>FCAAEE5911AEE4619B19A7F15F1203D8FB9FA30F</key>
+		<string>https://github.com/livingincode/bloc.io.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>BlocExercises/BlocExercises.xcodeproj</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>5450119CCA2DD394E9078F73A3071326A1F877FC</key>
 		<string>../../..</string>
+		<key>FCAAEE5911AEE4619B19A7F15F1203D8FB9FA30F</key>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Bloc/ios-exercises.git</string>
@@ -28,6 +32,14 @@
 	<string>5450119CCA2DD394E9078F73A3071326A1F877FC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FCAAEE5911AEE4619B19A7F15F1203D8FB9FA30F</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
