@@ -11,18 +11,24 @@
 @implementation StarTrekDictionaries
 
 - (NSString *)favoriteDrinkForStarTrekCharacterDictionary:(NSDictionary *)characterDictionary {
-    /* WORK HERE */
-    return @"";
+    
+    return characterDictionary[@"favorite drink"];
+    
 }
 
 - (NSArray *)arrayOfFavoriteDrinksForStarTrekCharacters:(NSArray *)charactersArray {
-    /* WORK HERE */
-    return @[];
+    
+    return [charactersArray valueForKey:@"favorite drink"];
+    
 }
 
+                             
 - (NSDictionary *)dictionaryWithQuoteAddedToStarTrekCharacterDictionary:(NSDictionary *)characterDictionary {
-    /* WORK HERE */
-    return @{};
+    
+    NSMutableDictionary *addQuote = [characterDictionary mutableCopy];
+    addQuote[@"quote"] = @"The Vulcan Neck Pinch is not half as powerful as the Vulcan Groin Kick, but it's more politically correct";
+    
+    return addQuote;
 }
 
 @end
